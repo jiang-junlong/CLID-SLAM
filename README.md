@@ -12,6 +12,7 @@
     </p>
 </p>
 
+
 | Mesh                          | Neural Points                     |
 |-------------------------------|-----------------------------------|
 | ![Mesh](./assets/GUI_Mesh.png) | ![Neural Points](./assets/GUI_Neural_Points.png) |
@@ -30,6 +31,7 @@
   <img src="./assets/pipeline.png" />
 </div>
 
+**TL;DR:** CLID-SLAM is a tightly-coupled LiDAR-Inertial Odometry and dense Mapping framework, which utilizes the Iterated Error-State Extended Kalman Filter (IESEKF) to fuse Signed Distance Function (SDF) predictions and IMU data to improve robustness.
 ## Installation
 
 ### Platform Requirements
